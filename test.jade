@@ -1,0 +1,89 @@
+doctype html
+head
+    title Test
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css')
+    link(rel='stylesheet', href="css/style.css")
+    link(rel="stylesheet", href="css/materialize.css")
+body
+
+  ul(id="footballDropdown", class="dropdown-content")
+    li
+      a(href="#") NFL
+    li
+      a(href="#") NCAA
+    li
+      a(href="#") CFL
+
+  ul(id="basketballDropdown", class="dropdown-content")
+    li
+      a(href="#") NBA
+    li
+      a(href="#") NCAA
+    li
+      a(href="#") Euro
+
+  ul(id="soccerDropdown", class="dropdown-content")
+    li
+      a(href="#") MLS
+    li
+      a(href="#") Premier League
+    li
+      a(href="#") La Liga
+
+  ul(id="hockeyDropdown", class="dropdown-content")
+    li
+      a(href="#") NHL
+    li
+      a(href="#") KHL
+    li
+      a(href="#") NCAA
+
+  ul(id="sportsDropdown", class="dropdown-content")
+    li
+      a(href="#") Tennis
+    li
+      a(href="#") Racing
+    li
+      a(href="#") eSports
+
+  nav(role = "navigation" class="black darken-1")
+    div(class="nav-wrapper container")
+      ul(class="hide-on-med-and-down")
+        li
+          a(class="dropdown-trigger yellow-text text-darken-1", href="#!", data-target="footballDropdown") Football
+        li
+          a(class="dropdown-trigger yellow-text text-darken-1", href="#!", data-target="basketballDropdown") Basketball
+        li
+          a(class="dropdown-trigger yellow-text text-darken-1", href="#!", data-target="hockeyDropdown") Hockey
+        li
+          a(class="dropdown-trigger yellow-text text-darken-1", href="#!", data-target="soccerDropdown") Soccer
+        li
+          a(class="dropdown-trigger yellow-text text-darken-1", href="#!", data-target="sportsDropdown") All Sports
+
+  div(id="index-banner" class="parallax-container")
+    div(class="section no-pad-bot")
+      div(class="container")
+        br
+        br
+        h1(class="header center") ELITE
+        h1(class="header center") SPORTSBOOK
+        div(class="row center")
+          h5(class="header col s12 light ") The best online sportsbook.
+          h5(class="header col s12 light") Specially designed by Mizzou Students
+
+    div(class="parallax")
+      img(src="background23.jpg" alt="Unsplashed background img 1")
+
+  div(class="container")
+
+    h1 This is a test
+    p Testing 123
+
+
+  script(src="https://code.jquery.com/jquery-2.1.1.min.js")
+  script(src="js/materialize.js")
+  script(src="js/init.js")
+
+
+  script(type="text/javascript").
+    $(".dropdown-trigger").dropdown();
