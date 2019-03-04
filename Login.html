@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Elite Sportsbook</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/materialize.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <style>
+
+    body{
+      background-image: url(background1.jpg);
+      background-size: cover;
+    }
+
+    .login{
+      margin-top: 100px;
+
+    }
+
+    .login .card{
+      background-color: rgba(0,0,0,.6);
+    }
+
+    .login label{
+      font-size: 16px;
+    }
+
+    .login input{
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="row login white-text">
+    <div class="col s12 l4 offset-l4">
+      <div class="card">
+        <div class="card-action yellow darken-1">
+          <h3>Login</h3>
+        </div>
+        <div class="card-content">
+          <div class="form-field">
+            <label for="username">Username</label>
+            <input type="text" id="username" />
+          </div><br />
+
+          <div class="form-field">
+            <label for="password">Password</label>
+            <input type="password" id="password" />
+          </div><br />
+
+          <div class="form-field">
+            <input type="checkbox" id="remember" />
+            <label for="remember">Remember Me</label>
+          </div><br />
+
+          <div class="form-field center-align">
+            <button class="btn-large yellow darken-1">Login</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script type="text/javascript">
+    $(".dropdown-trigger").dropdown();
+  </script>
+</body>
