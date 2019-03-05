@@ -59,8 +59,10 @@ footer.page-footer {
 }
 
 @font-face {
-    font-family: Coldiac;
-    src: url("Coldiac.otf") format("otf");
+    font-family: 'Coldiac';
+    src: url("Coldiac.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 .coldiac-text {
