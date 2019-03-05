@@ -6,8 +6,12 @@
  * Made By MaterializeCSS.com
  */
 
-
-
+li a {
+  font-family: Coldiac;
+}
+/*body {
+  font-family: Coldiac;
+}*/
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -69,3 +73,7 @@ footer.page-footer {
   font-family: Coldiac;
 
 }
+
+.yellow-text li a{
+  color: yellow;
+ }
