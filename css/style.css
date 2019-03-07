@@ -77,3 +77,37 @@ footer.page-footer {
 .yellow-text li a{
   color: yellow;
  }
+
+.profile-pic {
+  margin: 25px 0px;
+  position: static;
+  width: 100%;
+}
+
+.profile-pic img {
+  width: 128px; /* you can use % */
+  height: auto;
+  display:block;
+  margin:auto;
+}
+
+.profile-pic h5, p {
+  text-align: center;
+}
+
+table.settings p {
+  text-align: left;
+  display: inline;
+}
+
+table.settings button {
+  float: right;
+}
+
+.stake {
+  color: green;
+}
+
+.towin {
+  color: red;
+}
