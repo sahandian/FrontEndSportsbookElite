@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/materialize.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+  img.IMGshadow{
+      box-shadow: 10px 10px 8px grey;
+  }
+  img.rounded-corners{
+      border-radius: 40px;
+      width: 75%;
+      height: 75%
+      
+  }
+  div.textAlign{
+      text-align: center;
+  }
+  u.names{
+      font-size: 20px;
+  }
+  </style>
+</head>
+<body>
+        <div>
+                <ul class="dropdown-content yellow darken-1" id="footballDropdown">
+                  <li><a class="black-text text-darken-1" href="#">NFL</a></li>
+                  <li><a class="black-text text-darken-1" href="#">NCAA</a></li>
+                  <li><a class="black-text text-darken-1" href="#">CFL</a></li>
+                </ul>
+                <ul class="dropdown-content yellow darken-1" id="basketballDropdown">
+                  <li><a class="black-text" href="#">NBA</a></li>
+                  <li><a class="black-text" href="#">NCAA</a></li>
+                  <li><a class="black-text" href="#">Euro</a></li>
+                </ul>
+                <ul class="dropdown-content yellow darken-1" id="soccerDropdown">
+                  <li><a class="black-text" href="#">MLS</a></li>
+                  <li><a class="black-text" href="#">Premier League</a></li>
+                  <li><a class="black-text" href="#">La Liga</a></li>
+                </ul>
+                <ul class="dropdown-content yellow darken-1" id="hockeyDropdown">
+                  <li><a class="black-text" href="#">NHL</a></li>
+                  <li><a class="black-text" href="#">KHL</a></li>
+                  <li><a class="black-text" href="#">NCAA</a></li>
+                </ul>
+                <ul class="dropdown-content yellow darken-1" id="sportsDropdown">
+                  <li><a class="black-text" href="#">Tennis</a></li>
+                  <li><a class="black-text" href="#">Racing</a></li>
+                  <li><a class="black-text" href="#">eSports</a></li>
+                </ul>
+                <nav class="black darken-1" role="navigation">
+                  <div class="nav-wrapper container">
+                    <a href="index.html" class="brand-logo"><i class="material-icons">ELITE</i></a>
+                    <ul class="right hide-on-med-and-down">
+                      <li><a class="dropdown-trigger yellow-text text-darken-1" href="#!" data-target="footballDropdown">FOOTBALL</a></li>
+                      <li><a class="dropdown-trigger yellow-text text-darken-1" href="#!" data-target="basketballDropdown">BASKETBALL</a></li>
+                      <li><a class="dropdown-trigger yellow-text text-darken-1" href="#!" data-target="hockeyDropdown">HOCKEY</a></li>
+                      <li><a class="dropdown-trigger yellow-text text-darken-1" href="#!" data-target="soccerDropdown">SOCCER</a></li>
+                      <li><a class="dropdown-trigger yellow-text text-darken-1" href="#!" data-target="sportsDropdown">ALL SPORTS</a></li>
+                      <li><a class="waves-effect waves-light btn yellow darken-1" href="Login.html">LOGIN <i class="material-icons right">account_circle</i></a></li>
+                    </ul>
+                  </div>
+                </nav>
+                <!-- add in the about portion here -->
+                <!-- hook everyones linkedin up to their picture, add padding and rounding -->
+            <div class="container">
+                <div class="row">
+                    <div class="textAlign"><u><h1>About Us</h1></u></div>
+                </div>
+                <div class="row">
+                    <div class="col s6">
+                        <!-- is the parallax working!? -->
+                        <div class="textAlign"><a href="https://www.linkedin.com/in/matthew-barber-295620119/">
+                            <img class="rounded-corners IMGshadow" src="pics/barber.jpeg" />
+                        </a>
+                        </div>
+                    <div class="textAlign"><u class="names">Matt Barber</u></div>
+                    <div class="textAlign">Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras malesuada, lorem convallis sollicitudin dictum, turpis nunc laoreet erat, ut ornare mi ipsum ac tortor.</div>
+                    </div>
+                    <div class="col s6">
+                        <div class="textAlign"><a href="https://www.linkedin.com/in/david-dean-b7009a95/">
+                                <img class="rounded-corners IMGshadow" src="pics/dean.jpeg" />
+                            </a>
+                        </div>
+                        <!-- why is text align not working -->
+                        <div class="textAlign"><u class="names">David Dean</u></div></div>
+                        <div class="textAlign">Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras malesuada, lorem convallis sollicitudin dictum, turpis nunc laoreet erat, ut ornare mi ipsum ac tortor.</div>
+                </div>
+                <div class="row">
+                    <div class="col s6">
+                        <div class="textAlign"><a href="https://www.linkedin.com/in/sahandsadri/">
+                        <img class="rounded-corners IMGshadow" src="pics/sadri.jpeg" />
+                    </a></div>
+                        <div class="textAlign"><u class="names">Sahand Sadri</u></div> <div class="textAlign">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras malesuada, lorem convallis sollicitudin dictum, turpis nunc laoreet erat, ut ornare mi ipsum ac tortor.</div></div>
+                        
+                    <div class="col s6">
+                        <div class="textAlign"><a href="https://www.linkedin.com/in/colinjstevens/">
+                            <img class="rounded-corners IMGshadow" src="pics/stevens.jpeg" />
+                        </a></div>
+                        <div class="textAlign"><u class="names">Colin Stevens</u></div> <div class="textAlign">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras malesuada, lorem convallis sollicitudin dictum, turpis nunc laoreet erat, ut ornare mi ipsum ac tortor.</div></div>
+                </div>
+                <div class="row">
+                    <div class="col s6">
+                        <div class="textAlign"><a href="https://www.linkedin.com/in/dan-weiss-772150105/">
+                            <img class="rounded-corners IMGshadow" src="pics/weiss.jpeg" />
+                        </a></div>
+                        <div class="textAlign"><u class="names">Daniel Weiss</u></div>
+                        <div class="textAlign">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras malesuada, lorem convallis sollicitudin dictum, turpis nunc laoreet erat, ut ornare mi ipsum ac tortor.</div>
+                    </div>
+                    <div class="col s6">
+                        <div class="textAlign"><a href="https://www.linkedin.com/in/jeremiahwooten/">
+                            <img class="rounded-corners IMGshadow" src="pics/wooten.jpeg" />
+                        </a></div>
+                        <div class="textAlign"><u class="names">Jeremiah Wooten</u></div> <div class="textAlign">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras malesuada, lorem convallis sollicitudin dictum, turpis nunc laoreet erat, ut ornare mi ipsum ac tortor.</div></div>
+                       
+                </div>
+            </div>
+    </div>
+</body>
