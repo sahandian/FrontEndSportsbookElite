@@ -62,126 +62,35 @@
     <div class="parallax"><img src="background23.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
-  <div class="container">
+<!--  <div class="container">-->
     <div class="row">
-      <div class="col s6">
-        <h3 class="header center coldiac-text">Starting Soon</h3>
-        <table border="3">
-        <thead>
-          <tr>
-              <th>Game</th>
-              <th>Spread</th>
-              <th>TOTAL</th>
-          </tr>
-        </thead>
 
-        <tbody>
-          <tr>
-            <td>
-            <table border="3">
-           <td>OKC Thunder</td>
-           <TR>
-           <td>HOU Rockets</td>
-           </tr>
-           </table>
-           </td>
-           <td>
-           <table border="3">
-          <td>-4.5</td>
-          <TR>
-          <td>+4.5</td>
-          </tr>
-          </table>
-          </td>
-          <td>
-          <table border="3">
-         <td>O245.5</td>
-         <TR>
-         <td>U245.5</td>
-         </tr>
-         </table>
-         </td>
-          </tr>
-          <tr>
-            <td>
-            <table border="3">
-           <td>MIN Timberwolves</td>
-           <TR>
-           <td>CHI Bulls</td>
-           </tr>
-           </table>
-           </td>
-           <td>
-           <table border="3">
-          <td>-7.5</td>
-          <TR>
-          <td>+7.5</td>
-          </tr>
-          </table>
-          </td>
-          <td>
-          <table border="3">
-         <td>O212</td>
-         <TR>
-         <td>U212</td>
-         </tr>
-         </table>
-         </td>
-          </tr>
-          <tr>
-            <td>
-            <table border="3">
-           <td>LA Lakers</td>
-           <TR>
-           <td>GS Warriors</td>
-           </tr>
-           </table>
-           </td>
-           <td>
-           <table border="3">
-          <td>+9.5</td>
-          <TR>
-          <td>-9.5</td>
-          </tr>
-          </table>
-          </td>
-          <td>
-          <table border="3">
-         <td>O222.5</td>
-         <TR>
-         <td>U242.5</td>
-         </tr>
-         </table>
-         </td>
-          </tr>
-        </tbody>
-      </table>
-      </div>
-
-      <div class="col s6">
+      <div class="col s12 m9 l9">
+          <div class="container">
         <h3 class="header center coldiac-text">Popular Games</h3>
         <table border="3">
         <thead>
           <tr>
               <th>Game</th>
               <th>Spread</th>
-              <th>TOTAL</th>
+              <th>Win</th>
+              <th>Total</th>
           </tr>
         </thead>
 
-        <tbody>
+        <!--<tbody>
           <tr>
             <td>
             <table border="3">
-           <td><button>OKC Thunder</button></td>
+           <td>OKC Thunder</td>
            <TR>
            <td>HOU Rockets</td>
-           </tr>
+        </tr>
            </table>
            </td>
            <td>
            <table border="3">
-          <td>-4.5</td>
+               <td><button class="get-spread" style="width:100%;height:100%;">-4.5<span class="grey-text">(-115)</span></button></td>
           <TR>
           <td>+4.5</td>
           </tr>
@@ -249,11 +158,100 @@
          </td>
           </tr>
         </tbody>
-      </table>
+      </table> -->
+    <tbody>
+        <tr>
+            <td>OKC Thunder</td>
+            <td><button class="get-spread" style="width:100%;height:100%;">-4.5<span class="grey-text">(-115)</span></button></td>
+              <td>+170</td>
+            <td>O245.5</td>
+        </tr>
+        <tr>
+            <td>HOU Rockets</td>
+            <td><button class="get-spread" style="width:100%;height:100%;">-4.5<span class="grey-text">(-115)</span></button></td>
+            <td>-130</td>
+            <td>O245.5</td>
+            </tr>
+        <tr>
+         <td>LA Lakers</td>
+            <td><button class="get-spread" style="width:100%;height:100%;">-9.5<span class="grey-text">(-115)</span></button></td>
+            <td>-185</td>
+            <td>O222.5</td>
+        </tr>
+        <tr>
+            <td>NY Knicks</td>
+            <td><button class="get-spread" style="width:100%;height:100%;">+9.5<span class="grey-text">(-115)</span></button></td>
+            <td>+250</td>
+            <td>U222.5</td>
+        </tr>
+<!--
+            <td>
+            <table border="3">
+           <td>OKC Thunder</td>
+           <tr>
+           <td>HOU Rockets</td>
+            </tr>
+           </table>
+           </td>
+           <td>
+           <table border="3">
+               <td><button class="get-spread" style="width:100%;height:100%;">-4.5<span class="grey-text">(-115)</span></button></td>
+          <tr>
+          <td>+4.5</td>
+          </tr>
+          </table>
+          </td>
+          <td>
+          <table border="3">
+         <td>O245.5</td>
+         <tr>
+         <td>U245.5</td>
+         </tr>
+         </table>
+         </td>
+          </tr>
+-->
+            </tbody>
+        </table>
+            
+            
       </div>
+          </div>
 
+        <div class="col s12 m3 l3">
+            <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+          <span class="card-title coldiac-text">Bet Slip</span>
+        </div>
+        
+        <form method="post" action="null">
+            <table class="white-text" id="betslip">
+        <thead>
+          <tr>
+              <th>Team</th>
+              <th>Bet</th>
+              <th>Risk</th>
+              <th>Win</th>
+          </tr>
+        </thead>
+
+        
+        <tbody>
+          <tr>
+            <td>Lakers </td>
+            <td>+9.5 <strong class="gray-text">(-115)</strong></td>
+            <td><INPUT TYPE="TEXT" NAME="risk" SIZE="9" ></INPUT></td>
+              <td><input type="text" name="win" size="9" readonly></td>
+          </tr>
+        </tbody>
+      </table>
+        
+            <button class="btn-large waves-effect black yellow-text center-alignment" type="submit" style="width:100%;">Submit <i class="material-icons right">send</i></button>
+        </form>
+            </div>
+        </div>
     </div>
-  </div>
+<!--  </div>-->
 
   <footer class="page-footer yellow darken-1">
           <div class="container">
@@ -284,5 +282,34 @@
   <script src="js/init.js"></script>
   <script type="text/javascript">
     $(".dropdown-trigger").dropdown();
+    
+    $( "*" ).each(function( index ) {
+        $( this ).append(' ');
+    });
+    $(".get-spread").click(function() {
+        var $row = $(this).closest("tr"),
+        $tds = $row.find("td:nth-child(-n+2)");
+
+        $.each($tds, function() {
+            console.log($(this).text());
+        });
+        
+        $("#betslip").each(function () {
+            var tds1 = '<tr>';
+               $.each($tds, function() {
+                    tds1 += '<td>' + $(this).text() + '</td>';
+                });
+            tds1 += '<td><INPUT TYPE="TEXT" NAME="risk" SIZE="9" ></INPUT></td><td><input type="text" name="win" size="9" readonly></td>'
+            tds1 += '</tr>';
+            if ($('tbody', this).length > 0) {
+             $('tbody', this).append(tds1);
+         } else {
+             $(this).append(tds1);
+         }
+            
+        });
+    });
+      
+      
   </script>
 </body>

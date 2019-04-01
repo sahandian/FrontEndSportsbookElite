@@ -6,6 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
+table tbody tr:nth-child(4n-1), table tbody tr:nth-child(4n)  {
+    background: grey;
+}
+
 li a {
   font-family: Coldiac;
 }
