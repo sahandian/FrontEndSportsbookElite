@@ -59,7 +59,7 @@
                             <div class="textAlign"><u><h1>Create an Account</h1></u></div>
                     </div>
                     <div class="row">
-                        <form class="col s12">
+                        <form class="col s12" method="post">
                             <div class="row">
                                 <div class="input-field col s6">
                                     <input id="first_name" type="text" class="validate" required>
@@ -94,8 +94,13 @@
                                 <div class="input-field col s4"></div>
                                 <div class="input-field col s4">
                                     <input id="submit" type="submit" class="validate" required>
+<!--                                    put a place to display errors-->
                                 </div>
-                                <div class="input field col s4"></div>
+                                <div class="input field col s4" style="color: red; text-align: left">
+                                    <br>
+<!--                                    for the error placement!!!!-->
+<!--                                    Field "First Name" Required-->
+                                </div>
                             </div>
                         </form>
                     </div>
